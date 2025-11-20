@@ -1,7 +1,9 @@
 /* VARIABLES */
 :root {
+    --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
+    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -34,7 +36,8 @@ main {
     margin: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -111,5 +114,5 @@ footer {
 }
 
 footer img {
-    width: 30px;
+    width: 30px;
 }
