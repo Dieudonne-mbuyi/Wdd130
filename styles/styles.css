@@ -17,6 +17,7 @@ body {
 header h1 {
   text-align: center;
   margin-bottom: 15px;
+  background: #003366;
 }
 
 /* NAVIGATION */
