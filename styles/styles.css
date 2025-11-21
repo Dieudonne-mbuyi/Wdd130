@@ -24,31 +24,26 @@ nav {
   margin: 0 auto;
   display: block;
   justify-content: center;
-<<<<<<< HEAD
-=======
-  background-color: #004080;
+  <<<<<<< HEAD=======background-color: #004080;
   padding: 0.8rem 0;
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
-  gap: 1.5rem;
+  >>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c gap: 1.5rem;
 }
 
 nav a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
-<<<<<<< HEAD
+  <<<<<<< HEAD
 }
 
 nav a:hover {
-=======
-  display: block;
+  =======display: block;
   padding: 0.5rem 1rem
 }
 
 nav a:hover {
   background-color: #0066cc;
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
-  text-decoration: underline;
+  >>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c text-decoration: underline;
 }
 
 /* Main section */
@@ -67,11 +62,9 @@ main {
 main h1 {
   color: #002e5d;
   font-size: 1.6rem;
-<<<<<<< HEAD
-  text-align: center;
-=======
-  text-align: left;
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
+  <<<<<<< HEAD text-align: center;
+  =======text-align: left;
+  >>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c
   /* page title centered */
   margin-bottom: 12px;
 }
@@ -79,11 +72,8 @@ main h1 {
 h2 p {
   text-align: center;
   color: #002e5d;
-<<<<<<< HEAD
-  border: 1px solid #333;
-=======
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
-  margin-bottom: 8px;
+  <<<<<<< HEAD border: 1px solid #333;
+  =======>>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c margin-bottom: 8px;
 }
 
 main img {
@@ -97,17 +87,15 @@ main img {
 aside {
   width: 20em;
   margin: 1em;
-<<<<<<< HEAD
-  border: 2px solid rgba(0, 0, 0, 0.2);
-=======
-  border: 1px solid rgba(0, 0, 0, 0.2);
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
-  padding: 1em;
+  <<<<<<< HEAD border: 2px solid rgba(0, 0, 0, 0.2);
+  =======border: 1px solid rgba(0, 0, 0, 0.2);
+  >>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c padding: 1em;
   background-color: #eee;
   color: #333;
   text-align: center;
-<<<<<<< HEAD
- }
+  <<<<<<< HEAD
+}
+
 =======
 }
 
@@ -117,8 +105,7 @@ aside h2 {
   font-size: 1.25rem;
 }
 
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
-aside h2 p {
+>>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c aside h2 p {
   margin-bottom: 10px;
   font-size: 1.25rem;
   text-align: center;
@@ -127,31 +114,30 @@ aside h2 p {
 /* Aside image rules: width 200px and height auto */
 aside img {
   width: 200px;
+
   height: auto;
 }
 
 /* Paragraph general rule: padding 0 as requested */
 p {
-<<<<<<< HEAD
-  padding: 0; 
-=======
-  padding: 0;
+  <<<<<<< HEAD padding: 0;
+  =======padding: 0;
   margin-top: 6px;
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
+  >>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c
 }
 
 /* Footer rules: margin-top, border-top, text-align center */
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
-<<<<<<< HEAD
-  text-align:center;
+  <<<<<<< HEAD text-align: center;
 }
-=======
-  text-align: center;
-  padding: 10px 0;
-  background-color: #f8f8f8;
-  color: #002e5d;
-  font-size: 0.95rem;
+
+=======text-align: center;
+padding: 10px 0;
+background-color: #f8f8f8;
+color: #002e5d;
+font-size: 0.95rem;
 }
->>>>>>> 8d7f632ec03808240b0a50f70b5569c88d8c6d5c
+
+>>>>>>>8d7f632ec03808240b0a50f70b5569c88d8c6d5c
