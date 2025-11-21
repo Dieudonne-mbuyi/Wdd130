@@ -24,12 +24,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 20px;
+    background-color: white;
 }
 
 header img {
     width: 150px;
+    height: auto;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #264653;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 
 main {
     width: 840px;
