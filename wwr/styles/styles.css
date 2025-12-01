@@ -1,0 +1,103 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL BODY STYLE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* HEADER */
+header h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  background: #003366;
+}
+
+/* NAVIGATION */
+nav {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN SECTION */
+main {
+  max-width: 840px;
+  /* Required by the assignment */
+  background: white;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+  width: 150px;
+  /* Required rule */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+main p {
+  padding: 0;
+  /* Required by assignment */
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ASIDE */
+aside {
+  width: 20rem;
+  /* Required */
+  margin: 1rem auto;
+  /* Required */
+  border: 1px solid rgb(0 0 0 / 0.2);
+  /* Required */
+  padding: 1rem;
+  /* Required */
+  background-color: #ffffff;
+  /* Required */
+  color: #333;
+  /* Required */
+  text-align: center;
+  /* Good practice */
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+aside img {
+  width: 200px;
+  /* Required */
+  height: auto;
+  /* Required */
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 15px;
+  /* Required */
+  border-top: 1px solid #000;
+  /* Required */
+  text-align: center;
+  /* Required */
+  padding-top: 10px;
+}
