@@ -1,40 +1,94 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD 130 | MBUYI MBUYI Dieudonné</title>
-  <meta name="description" content="MBUYI Dieudonne BYU-Idaho WDD 130 course Home page">
-  <meta name="author" content="MBUYI Dieudonne">
-  <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="White Water Rafting - thrilling river trips, safety-first guides, and easy booking. Sign up for our newsletter." />
+  <title>White Water Rafting - Home</title>
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
+  <!-- HEADER (identique aux autres pages) -->
   <header>
+    <img src="images/logo.png" alt="Rafting logo">
     <nav>
-      <a href="#">Home</a>
-      <a href="about.html">Rafting website</a>
-      <a hrref="contact.html">contact us</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
+  <!-- HERO -->
   <main>
-    <h1>MBUYI Dieudonne | WDD 130</h1>
-    <img src="images/profile.jpg" alt="Hello, my name is MBUYI Dieudonne">
-    <p>Hello, I am <strong>MBUYI MBUYI Dieudonné</strong>, a student in WDD 130 Web Fundamentals at BYU–Idaho.
-      I am from the Democratic Republic of the Congo (RDC). I am learning HTML, CSS, and basic web development.</p>
-  </main>
-  <aside class="hoder">
-    <h2>Democratic Republic of the Congo</h2>
-    <img src="images/drc.jpg" alt="Flag or landscape of the Democratic Republic of the Congo" class="rdc-img">
-    <p>The Democratic Republic of the Congo (RDC) is a large country in Central Africa known for its rich culture,
-      natural resources and the Congo River. Mbuji-Mayi is a major city located in the region.</p>
-  </aside>
+    <section class="hero hero-home">
+      <img src="images/hero1.jpg" alt="People rafting on white water">
+      <h1> Experience the Rush — White Water Rafting Adventures</h1>
 
+      <!-- boxed overlay (left bottom) -->
+      <div class="hero-box">
+        <img src="images/happy-client.jpg" alt="Happy clients">
+        <p>Join our experienced guides for safe, unforgettable river trips. All levels welcome.</p>
+        <a class="btn" href="trips.html">See Trips & Book Now</a>
+      </div>
+    </section>
+
+    <!-- Newsletter + grid of features -->
+    <section class="home-section">
+      <div class="newsletter">
+        <h2>Join our Newsletter</h2>
+        <p>Get trip deals and safety tips delivered to your inbox.</p>
+        <form class="newsletter-form" action="#" method="post" novalidate>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="grid-features">
+        <article class="feature">
+          <img src="images/feature1.jpg" alt="Guided trips">
+          <h3>Guided Trips</h3>
+          <p>Professional guides certified in river safety lead every trip.</p>
+        </article>
+
+        <article class="feature">
+          <img src="images/feature2.jpg" alt="All levels">
+          <h3>Trips for All Levels</h3>
+          <p>From gentle floats to adrenaline rapids — choose your pace.</p>
+        </article>
+
+        <article class="feature">
+          <img src="images/feature3.jpg" alt="Equipment">
+          <h3>Top Gear</h3>
+          <p>Modern, well-maintained rafts and safety equipment for every guest.</p>
+        </article>
+        <article class="feature">
+          <img src="images/feature4.jpg" alt="Equipment2">
+          <h3>better for year</h3>
+          <P> this evenement is a better for all this year finished</P>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 | MBUYI MBUYI Dieudonné | Brigham Young University–Idaho | All rights reserved</p>
+    <p>© 2025 White Water Rafting - Mbuyi Dieudonne</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+    </nav>
   </footer>
 
 </body>
+
+</html>
 
 </html>
